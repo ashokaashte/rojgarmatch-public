@@ -1,0 +1,840 @@
+{
+  "schema_version": 1,
+  "notice_id": "kpsc-2026-saad-hk-audit-officer",
+  "short_id": 1,
+  "board": "KPSC",
+  "advt_number": "KPSCKA/EXA2/PRSL/11/2026-EXAM2/252",
+  "notice_date": "2026-08-27",
+  "title_kn": "ಕರ್ನಾಟಕ ರಾಜ್ಯ ಲೆಕ್ಕಪರಿಶೋಧನೆ ಮತ್ತು ಲೆಕ್ಕಪತ್ರ ಇಲಾಖೆ: ಲೆಕ್ಕ ಪರಿಶೋಧನಾಧಿಕಾರಿ (ಗ್ರೂಪ್-ಬಿ, ಹೈದ್ರಾಬಾದ್-ಕರ್ನಾಟಕ ವೃಂದ) 13 + 02 ಬ್ಯಾಕ್‌ಲಾಗ್ ಹುದ್ದೆಗಳು",
+  "title_en": "Karnataka State Audit & Accounts Department: Audit Officer (Group-B, Hyderabad-Karnataka cadre), 13 + 2 backlog posts",
+  "source_pdf": "data/source/demo.karnataka.gov.in_kpsc2_public_uploads_SAAD_HK_Notification_dt_27-08-2026_1787914998.pdf",
+  "official_url": "https://demo.karnataka.gov.in/kpsc2/public/uploads/SAAD_HK_Notification_dt_27-08-2026_1787914998.pdf",
+  "corrigendum_version": 0,
+  "corrigenda": [],
+  "verified": true,
+  "verification": {
+    "method": "DOUBLE_ENTRY",
+    "date": "2026-10-25",
+    "evidence": "data/double_entry/kpsc-2026-saad-hk-audit-officer.blind.json",
+    "facts_compared": 49,
+    "facts_differing": 0,
+    "not_covered": "Hard bars (debarment, citizenship), horizontal-rule conditions, and the full PwD schedule were not part of the blind extraction; those keep verified=false. Legal interpretations (relaxation stacking, general-merit migration, fee resolution, reservation regime) stay unverified pending legal review.",
+    "human_spot_check": {
+      "done": false,
+      "scope": "Seat tables (p9) and age table (p8), before real users",
+      "date": null
+    }
+  },
+  "last_checked": "2026-10-25",
+  "reservation_regime": {
+    "value": "Vertical: GM, SC (single row, no A/B/C split in this notice), ST, Cat-1, 2A, 2B, 3B (no 3A seats). Vacancies and the reservation classification are stated to be provisional and subject to change.",
+    "note": "SC/ST percentages are in court (Karnataka High Court ruling 12-10-2026, state appealing). See research/FINDINGS.md and docs/LEGAL_QUESTIONS.md Q1.",
+    "citation": {
+      "document": "notice",
+      "clause": "10, special note",
+      "page": 9
+    },
+    "verified": false
+  },
+  "dates": {
+    "registration_start": "2026-08-28",
+    "registration_end": "2026-09-26",
+    "fee_deadline": null,
+    "age_cutoff_date": "2026-09-26",
+    "qualification_cutoff_date": null,
+    "exam_date_tentative": "2026-11-29",
+    "note": "No separate fee deadline; fee must be paid by the last date and time (5.2, p6). Age is reckoned on the last date for applications (9, p8). Candidates awaiting results may sit the preliminary exam; proof of passing is due with the Main exam application, whose date is not yet announced (7, p7).",
+    "citation": {
+      "document": "notice",
+      "clause": "1",
+      "page": 1
+    },
+    "verified": true
+  },
+  "flags": {
+    "age_relaxation_blocks_general_merit": {
+      "value": true,
+      "note": "Not stated in the notice. Default true pending legal review (docs/LEGAL_QUESTIONS.md Q4).",
+      "citation": null,
+      "verified": false
+    },
+    "kannada_language_requirement": {
+      "value": "QUALIFYING_PAPER_IN_EXAM",
+      "note": "Main exam has compulsory Kannada and English papers (150 marks each, SSLC first-language level): at least 30% in each and 35% on average, qualifying only. No Kannada bar at the application stage.",
+      "citation": {
+        "document": "notice",
+        "clause": "11, Main exam note",
+        "page": 11
+      },
+      "verified": true
+    }
+  },
+  "hard_bars": [
+    {
+      "code": "NOT_INDIAN_CITIZEN",
+      "citation": {
+        "document": "notice",
+        "clause": "6(a)",
+        "page": 6
+      },
+      "verified": false
+    },
+    {
+      "code": "DEBARRED_PERMANENT",
+      "note": "Permanently debarred by UPSC, KPSC or any state PSC.",
+      "citation": {
+        "document": "notice",
+        "clause": "6(u)",
+        "page": 6
+      },
+      "verified": false
+    },
+    {
+      "code": "DEBARRED_TEMPORARY",
+      "note": "Ineligible until the government reconsiders and declares them eligible.",
+      "citation": {
+        "document": "notice",
+        "clause": "6(uu)",
+        "page": 7
+      },
+      "verified": false
+    }
+  ],
+  "attempt_limits": [],
+  "attempt_limits_note": "No attempt limit is stated in this notice.",
+  "fees": [
+    {
+      "applies_to": {
+        "categories": [
+          "GM"
+        ]
+      },
+      "amount_rupees": 600,
+      "citation": {
+        "document": "notice",
+        "clause": "5",
+        "page": 6
+      },
+      "verified": true
+    },
+    {
+      "applies_to": {
+        "categories": [
+          "CAT_2A",
+          "CAT_2B",
+          "CAT_3A",
+          "CAT_3B"
+        ]
+      },
+      "amount_rupees": 300,
+      "citation": {
+        "document": "notice",
+        "clause": "5",
+        "page": 6
+      },
+      "verified": true
+    },
+    {
+      "applies_to": {
+        "groups": [
+          "EX_SERVICEMEN"
+        ]
+      },
+      "amount_rupees": 50,
+      "citation": {
+        "document": "notice",
+        "clause": "5",
+        "page": 6
+      },
+      "verified": true
+    },
+    {
+      "applies_to": {
+        "categories": [
+          "SC",
+          "ST",
+          "CAT_1"
+        ],
+        "groups": [
+          "PWD"
+        ]
+      },
+      "amount_rupees": 0,
+      "citation": {
+        "document": "notice",
+        "clause": "5",
+        "page": 6
+      },
+      "verified": true
+    }
+  ],
+  "fee_resolution": {
+    "value": "LOWEST_APPLICABLE",
+    "note": "The fee table does not say which row wins when more than one applies (for example a GM ex-serviceman). Assumed: the lowest applicable fee. docs/LEGAL_QUESTIONS.md Q12.",
+    "citation": null,
+    "verified": false
+  },
+  "certificate_rules": [
+    {
+      "applies_to": "SC",
+      "form": "Form-D",
+      "issuer": "Tahsildar",
+      "validity_years": null,
+      "must_be_valid_on": "REGISTRATION_END",
+      "must_be_issued_by": "REGISTRATION_END",
+      "note": "Covers SC categories A, B and C. Valid for life unless cancelled.",
+      "citation": {
+        "document": "notice",
+        "clause": "11.1",
+        "page": 12
+      },
+      "verified": true
+    },
+    {
+      "applies_to": "ST",
+      "form": "Form-D",
+      "issuer": "Tahsildar",
+      "validity_years": null,
+      "must_be_valid_on": "REGISTRATION_END",
+      "must_be_issued_by": "REGISTRATION_END",
+      "citation": {
+        "document": "notice",
+        "clause": "11.1",
+        "page": 12
+      },
+      "verified": true
+    },
+    {
+      "applies_to": "CAT_1",
+      "form": "Form-E",
+      "issuer": "Tahsildar",
+      "validity_years": null,
+      "must_be_valid_on": "REGISTRATION_END",
+      "must_be_issued_by": "REGISTRATION_END",
+      "citation": {
+        "document": "notice",
+        "clause": "11.1",
+        "page": 12
+      },
+      "verified": true
+    },
+    {
+      "applies_to": "OBC_2A_2B_3A_3B",
+      "form": "Form-F",
+      "issuer": "Tahsildar",
+      "validity_years": 5,
+      "must_be_valid_on": "REGISTRATION_END",
+      "must_be_issued_by": "REGISTRATION_END",
+      "income_limit_rupees": 800000,
+      "note": "Income and caste certificate (creamy layer). The Rs 8 lakh income limit is printed in the Form-F template on p20 (GO 304 BCA 2017 dated 14-09-2018). Balija and sub-castes claim 3A for employment; a 2A certificate is not accepted.",
+      "citation": {
+        "document": "notice",
+        "clause": "11.1",
+        "page": 12
+      },
+      "verified": true
+    },
+    {
+      "applies_to": "GM_RURAL",
+      "form": "Form-1",
+      "issuer": "Tahsildar",
+      "validity_years": null,
+      "validity_stated": false,
+      "must_be_valid_on": "REGISTRATION_END",
+      "must_be_issued_by": "REGISTRATION_END",
+      "note": "Non-creamy-layer certificate needed by GM candidates claiming rural reservation, in addition to Form-2. Validity period not stated beyond 'valid on the last date'.",
+      "citation": {
+        "document": "notice",
+        "clause": "11.2",
+        "page": 13
+      },
+      "verified": true
+    }
+  ],
+  "horizontal_rules": [
+    {
+      "group": "WOMEN",
+      "condition": "Female candidates.",
+      "documents": [],
+      "citation": {
+        "document": "notice",
+        "clause": "10 (vacancy table)",
+        "page": 9
+      },
+      "verified": false
+    },
+    {
+      "group": "RURAL",
+      "condition": "Studied classes 1 to 10 in a rural area. Rejected if the caste certificate is invalid.",
+      "documents": [
+        "Form-2 rural study certificate (headmaster, countersigned by Block Education Officer)",
+        "GM only: Form-1 non-creamy-layer certificate"
+      ],
+      "citation": {
+        "document": "notice",
+        "clause": "11.2",
+        "page": 12
+      },
+      "verified": false
+    },
+    {
+      "group": "PWD",
+      "condition": "Disability of at least 40%, of a type listed for the post.",
+      "documents": [
+        "Disability certificate in the prescribed format"
+      ],
+      "percent": 4,
+      "min_disability_percent": 40,
+      "citation": {
+        "document": "notice",
+        "clause": "11.7",
+        "page": 14
+      },
+      "verified": false
+    },
+    {
+      "group": "TRANSGENDER",
+      "condition": "1% of posts in each category. Needs a District Magistrate certificate under the Transgender Persons Act 2019. The vacancy tables have no transgender column.",
+      "documents": [
+        "District Magistrate transgender certificate"
+      ],
+      "percent": 1,
+      "citation": {
+        "document": "notice",
+        "clause": "11.8",
+        "page": 15
+      },
+      "verified": false
+    }
+  ],
+  "posts": [
+    {
+      "post_id": "kpsc-2026-saad-hk-audit-officer-13",
+      "short_id": 1001,
+      "title_kn": "ಲೆಕ್ಕ ಪರಿಶೋಧನಾಧಿಕಾರಿ",
+      "title_en": "Audit Officer",
+      "department_kn": "ಕರ್ನಾಟಕ ರಾಜ್ಯ ಲೆಕ್ಕಪರಿಶೋಧನೆ ಮತ್ತು ಲೆಕ್ಕಪತ್ರ ಇಲಾಖೆ",
+      "department_en": "Karnataka State Audit & Accounts Department",
+      "group": "B",
+      "pay_scale": "69250-134200",
+      "cadre_type": "LOCAL",
+      "local_region": "KALYANA_KARNATAKA",
+      "local_certificate": {
+        "form": "Annexure-A eligibility certificate (Article 371J)",
+        "issuer": "Assistant Commissioner of the sub-division",
+        "govt_servant_route": "Service-book entry made before 01-01-2013 naming a native place in Bidar, Kalaburagi, Raichur, Koppal, Ballari or Yadgir district; native-village certificate from the head of office (11.6).",
+        "citation": {
+          "document": "notice",
+          "clause": "11.5",
+          "page": 14
+        },
+        "verified": true
+      },
+      "is_backlog": false,
+      "total_posts": 13,
+      "age_limits": [
+        {
+          "categories": [
+            "GM"
+          ],
+          "min_age": 21,
+          "max_age": 40,
+          "includes_temporary_relaxation": "GO ಸಿಆಸುಇ 262 ಸೇನೆನಿ 2025 dated 29-01-2026 (+5 years, one time)",
+          "citation": {
+            "document": "notice",
+            "clause": "9",
+            "page": 8
+          },
+          "verified": true
+        },
+        {
+          "categories": [
+            "CAT_2A",
+            "CAT_2B",
+            "CAT_3A",
+            "CAT_3B"
+          ],
+          "min_age": 21,
+          "max_age": 43,
+          "includes_temporary_relaxation": "GO ಸಿಆಸುಇ 262 ಸೇನೆನಿ 2025 dated 29-01-2026 (+5 years, one time)",
+          "citation": {
+            "document": "notice",
+            "clause": "9",
+            "page": 8
+          },
+          "verified": true
+        },
+        {
+          "categories": [
+            "SC",
+            "ST",
+            "CAT_1"
+          ],
+          "min_age": 21,
+          "max_age": 45,
+          "includes_temporary_relaxation": "GO ಸಿಆಸುಇ 262 ಸೇನೆನಿ 2025 dated 29-01-2026 (+5 years, one time)",
+          "citation": {
+            "document": "notice",
+            "clause": "9",
+            "page": 8
+          },
+          "verified": true
+        }
+      ],
+      "age_rule": "COMPLETED_YEARS",
+      "age_rule_text": "ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ನಿಗದಿಪಡಿಸಿದ ಕೊನೆಯ ದಿನಾಂಕದಂದು ಈ ಕೆಳಕಂಡ ಕನಿಷ್ಠ ವಯೋಮಿತಿಯನ್ನು ಹೊಂದಿರಬೇಕು ಹಾಗೂ ಗರಿಷ್ಠ ವಯೋಮಿತಿಯನ್ನು ಮೀರಿರಬಾರದು",
+      "relaxation_stacking": {
+        "value": "UNKNOWN",
+        "max_age_cap": null,
+        "note": "The notice does not say whether ex-servicemen, PwD or widow relaxations add to the category limit. docs/LEGAL_QUESTIONS.md Q3.",
+        "citation": null,
+        "verified": false
+      },
+      "horizontal_age_relaxations": [
+        {
+          "group": "EX_SERVICEMEN",
+          "kind": "SERVICE_YEARS_PLUS",
+          "years": 3,
+          "condition": "Years of armed-forces service plus 3 years. Families of ex-servicemen killed or disabled in war get the quota but no age relaxation (p14).",
+          "citation": {
+            "document": "notice",
+            "clause": "9.1(a)",
+            "page": 8
+          },
+          "verified": true
+        },
+        {
+          "group": "PWD",
+          "kind": "FIXED_YEARS",
+          "years": 10,
+          "citation": {
+            "document": "notice",
+            "clause": "9.1(aa)",
+            "page": 8
+          },
+          "verified": true
+        },
+        {
+          "group": "WIDOW",
+          "kind": "FIXED_YEARS",
+          "years": 10,
+          "condition": "Certificate from the competent authority that she is a widow and has not remarried.",
+          "citation": {
+            "document": "notice",
+            "clause": "9.1(i)",
+            "page": 8
+          },
+          "verified": true
+        }
+      ],
+      "allow_appearing": {
+        "value": true,
+        "note": "Candidates awaiting results may sit the preliminary exam; proof of passing (attested result sheet) must be uploaded with the Main exam application, or candidature is rejected.",
+        "citation": {
+          "document": "notice",
+          "clause": "7, proviso and special note",
+          "page": 7
+        },
+        "verified": true
+      },
+      "grade_conversion": null,
+      "required_qualification": {
+        "any_of": [
+          {
+            "tag": "MCOM"
+          },
+          {
+            "tag": "MBA",
+            "discipline": "FINANCE"
+          },
+          {
+            "tag": "MBA",
+            "discipline": "FINANCIAL_MANAGEMENT"
+          },
+          {
+            "tag": "MBA",
+            "discipline": "FINANCIAL_ANALYSIS"
+          },
+          {
+            "tag": "MCOM",
+            "discipline": "FINANCIAL_ANALYSIS"
+          },
+          {
+            "tag": "MASTERS_UGC_WITH_FINANCE"
+          },
+          {
+            "tag": "ICAI_MEMBER"
+          },
+          {
+            "tag": "ICOAI_ASSOCIATE_MEMBER"
+          }
+        ],
+        "text_en": "Master's degree in Commerce (M.Com.) or M.B.A (Finance) or M.B.A (Financial Management) or M.B.A./M.Com (Financial Analysis) or any other Master degree notified by University Grants Commission with 'Finance' as one of the subjects from a University established by Law in India, or a member of Institute of Chartered Accountants of India or an Associate member of Institute of Cost Accountants of India.",
+        "citation": {
+          "document": "notice",
+          "clause": "7",
+          "page": 7
+        },
+        "verified": true
+      },
+      "vertical_seats": [
+        {
+          "category": "SC",
+          "seats": 2
+        },
+        {
+          "category": "ST",
+          "seats": 1
+        },
+        {
+          "category": "CAT_1",
+          "seats": 1
+        },
+        {
+          "category": "CAT_2A",
+          "seats": 1
+        },
+        {
+          "category": "CAT_2B",
+          "seats": 1
+        },
+        {
+          "category": "CAT_3B",
+          "seats": 1
+        },
+        {
+          "category": "GM",
+          "seats": 6
+        }
+      ],
+      "vertical_seats_citation": {
+        "document": "notice",
+        "clause": "10 (Audit Officer - 13 posts table)",
+        "page": 9
+      },
+      "horizontal_seats": [
+        {
+          "category": "SC",
+          "group": "OTHERS",
+          "seats": 1,
+          "within_vertical": true
+        },
+        {
+          "category": "SC",
+          "group": "WOMEN",
+          "seats": 1,
+          "within_vertical": true
+        },
+        {
+          "category": "ST",
+          "group": "OTHERS",
+          "seats": 1,
+          "within_vertical": true
+        },
+        {
+          "category": "CAT_1",
+          "group": "OTHERS",
+          "seats": 1,
+          "within_vertical": true
+        },
+        {
+          "category": "CAT_2A",
+          "group": "OTHERS",
+          "seats": 1,
+          "within_vertical": true
+        },
+        {
+          "category": "CAT_2B",
+          "group": "OTHERS",
+          "seats": 1,
+          "within_vertical": true
+        },
+        {
+          "category": "CAT_3B",
+          "group": "OTHERS",
+          "seats": 1,
+          "within_vertical": true
+        },
+        {
+          "category": "GM",
+          "group": "OTHERS",
+          "seats": 1,
+          "within_vertical": true
+        },
+        {
+          "category": "GM",
+          "group": "WOMEN",
+          "seats": 2,
+          "within_vertical": true
+        },
+        {
+          "category": "GM",
+          "group": "RURAL",
+          "seats": 2,
+          "within_vertical": true
+        },
+        {
+          "category": "GM",
+          "group": "PWD",
+          "seats": 1,
+          "within_vertical": true,
+          "pwd_types": [
+            "BLIND",
+            "LOW_VISION"
+          ]
+        }
+      ],
+      "seats_verified": true,
+      "eligible_pwd_types": [
+        "BLIND",
+        "LOW_VISION"
+      ],
+      "eligible_pwd_types_note": "Taken from the vacancy-table footnote (*B, LV). The full PwD schedule at the end of the notice has not been transcribed.",
+      "gates": [
+        {
+          "type": "LANGUAGE_TEST",
+          "stage": "EXAM",
+          "description_en": "Compulsory Kannada and English papers in the Main exam, qualifying only: at least 30% in each and 35% on average.",
+          "citation": {
+            "document": "notice",
+            "clause": "11, Main exam note",
+            "page": 11
+          },
+          "verified": true
+        }
+      ]
+    },
+    {
+      "post_id": "kpsc-2026-saad-hk-audit-officer-backlog",
+      "short_id": 1002,
+      "title_kn": "ಲೆಕ್ಕ ಪರಿಶೋಧನಾಧಿಕಾರಿ (ಬ್ಯಾಕ್‌ಲಾಗ್ ಹುದ್ದೆಗಳು)",
+      "title_en": "Audit Officer (backlog posts)",
+      "department_kn": "ಕರ್ನಾಟಕ ರಾಜ್ಯ ಲೆಕ್ಕಪರಿಶೋಧನೆ ಮತ್ತು ಲೆಕ್ಕಪತ್ರ ಇಲಾಖೆ",
+      "department_en": "Karnataka State Audit & Accounts Department",
+      "group": "B",
+      "pay_scale": "69250-134200",
+      "cadre_type": "LOCAL",
+      "local_region": "KALYANA_KARNATAKA",
+      "local_certificate": {
+        "form": "Annexure-A eligibility certificate (Article 371J)",
+        "issuer": "Assistant Commissioner of the sub-division",
+        "govt_servant_route": "Service-book entry made before 01-01-2013 naming a native place in Bidar, Kalaburagi, Raichur, Koppal, Ballari or Yadgir district; native-village certificate from the head of office (11.6).",
+        "citation": {
+          "document": "notice",
+          "clause": "11.5",
+          "page": 14
+        },
+        "verified": true
+      },
+      "is_backlog": true,
+      "total_posts": 2,
+      "age_limits": [
+        {
+          "categories": [
+            "GM"
+          ],
+          "min_age": 21,
+          "max_age": 40,
+          "includes_temporary_relaxation": "GO ಸಿಆಸುಇ 262 ಸೇನೆನಿ 2025 dated 29-01-2026 (+5 years, one time)",
+          "citation": {
+            "document": "notice",
+            "clause": "9",
+            "page": 8
+          },
+          "verified": true
+        },
+        {
+          "categories": [
+            "CAT_2A",
+            "CAT_2B",
+            "CAT_3A",
+            "CAT_3B"
+          ],
+          "min_age": 21,
+          "max_age": 43,
+          "includes_temporary_relaxation": "GO ಸಿಆಸುಇ 262 ಸೇನೆನಿ 2025 dated 29-01-2026 (+5 years, one time)",
+          "citation": {
+            "document": "notice",
+            "clause": "9",
+            "page": 8
+          },
+          "verified": true
+        },
+        {
+          "categories": [
+            "SC",
+            "ST",
+            "CAT_1"
+          ],
+          "min_age": 21,
+          "max_age": 45,
+          "includes_temporary_relaxation": "GO ಸಿಆಸುಇ 262 ಸೇನೆನಿ 2025 dated 29-01-2026 (+5 years, one time)",
+          "citation": {
+            "document": "notice",
+            "clause": "9",
+            "page": 8
+          },
+          "verified": true
+        }
+      ],
+      "age_rule": "COMPLETED_YEARS",
+      "age_rule_text": "ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ನಿಗದಿಪಡಿಸಿದ ಕೊನೆಯ ದಿನಾಂಕದಂದು ಈ ಕೆಳಕಂಡ ಕನಿಷ್ಠ ವಯೋಮಿತಿಯನ್ನು ಹೊಂದಿರಬೇಕು ಹಾಗೂ ಗರಿಷ್ಠ ವಯೋಮಿತಿಯನ್ನು ಮೀರಿರಬಾರದು",
+      "relaxation_stacking": {
+        "value": "UNKNOWN",
+        "max_age_cap": null,
+        "note": "The notice does not say whether ex-servicemen, PwD or widow relaxations add to the category limit. docs/LEGAL_QUESTIONS.md Q3.",
+        "citation": null,
+        "verified": false
+      },
+      "horizontal_age_relaxations": [
+        {
+          "group": "EX_SERVICEMEN",
+          "kind": "SERVICE_YEARS_PLUS",
+          "years": 3,
+          "condition": "Years of armed-forces service plus 3 years. Families of ex-servicemen killed or disabled in war get the quota but no age relaxation (p14).",
+          "citation": {
+            "document": "notice",
+            "clause": "9.1(a)",
+            "page": 8
+          },
+          "verified": true
+        },
+        {
+          "group": "PWD",
+          "kind": "FIXED_YEARS",
+          "years": 10,
+          "citation": {
+            "document": "notice",
+            "clause": "9.1(aa)",
+            "page": 8
+          },
+          "verified": true
+        },
+        {
+          "group": "WIDOW",
+          "kind": "FIXED_YEARS",
+          "years": 10,
+          "condition": "Certificate from the competent authority that she is a widow and has not remarried.",
+          "citation": {
+            "document": "notice",
+            "clause": "9.1(i)",
+            "page": 8
+          },
+          "verified": true
+        }
+      ],
+      "allow_appearing": {
+        "value": true,
+        "note": "Candidates awaiting results may sit the preliminary exam; proof of passing (attested result sheet) must be uploaded with the Main exam application, or candidature is rejected.",
+        "citation": {
+          "document": "notice",
+          "clause": "7, proviso and special note",
+          "page": 7
+        },
+        "verified": true
+      },
+      "grade_conversion": null,
+      "required_qualification": {
+        "any_of": [
+          {
+            "tag": "MCOM"
+          },
+          {
+            "tag": "MBA",
+            "discipline": "FINANCE"
+          },
+          {
+            "tag": "MBA",
+            "discipline": "FINANCIAL_MANAGEMENT"
+          },
+          {
+            "tag": "MBA",
+            "discipline": "FINANCIAL_ANALYSIS"
+          },
+          {
+            "tag": "MCOM",
+            "discipline": "FINANCIAL_ANALYSIS"
+          },
+          {
+            "tag": "MASTERS_UGC_WITH_FINANCE"
+          },
+          {
+            "tag": "ICAI_MEMBER"
+          },
+          {
+            "tag": "ICOAI_ASSOCIATE_MEMBER"
+          }
+        ],
+        "text_en": "Same as the 13 regular posts (section 7).",
+        "citation": {
+          "document": "notice",
+          "clause": "7",
+          "page": 7
+        },
+        "verified": true
+      },
+      "vertical_seats": [
+        {
+          "category": "SC",
+          "seats": 1
+        },
+        {
+          "category": "CAT_2A",
+          "seats": 1
+        }
+      ],
+      "vertical_seats_citation": {
+        "document": "notice",
+        "clause": "10 (Audit Officer - 02 backlog table)",
+        "page": 9
+      },
+      "horizontal_seats": [
+        {
+          "category": "SC",
+          "group": "PWD",
+          "seats": 1,
+          "within_vertical": true,
+          "pwd_types": [
+            "DEAF",
+            "HARD_OF_HEARING",
+            "LOCOMOTOR",
+            "CEREBRAL_PALSY"
+          ]
+        },
+        {
+          "category": "CAT_2A",
+          "group": "PWD",
+          "seats": 1,
+          "within_vertical": true,
+          "pwd_types": [
+            "DEAF",
+            "HARD_OF_HEARING",
+            "LOCOMOTOR",
+            "CEREBRAL_PALSY"
+          ]
+        }
+      ],
+      "seats_verified": true,
+      "eligible_pwd_types": [
+        "DEAF",
+        "HARD_OF_HEARING",
+        "LOCOMOTOR",
+        "CEREBRAL_PALSY"
+      ],
+      "eligible_pwd_types_note": "Footnote # reads 'ಶ್ರವಣದೋಷ/ಚಲನವಲನ ವೈಕಲ್ಯ ಅಥವಾ ಮೆದುಳಿನ ಪಾರ್ಶ್ವವಾಯು' (hearing impairment / locomotor disability or cerebral palsy). Hearing impairment mapped to both DEAF and HARD_OF_HEARING; confirm against the PwD schedule. Both backlog posts are PwD-only.",
+      "gates": [
+        {
+          "type": "LANGUAGE_TEST",
+          "stage": "EXAM",
+          "description_en": "Compulsory Kannada and English papers in the Main exam, qualifying only: at least 30% in each and 35% on average.",
+          "citation": {
+            "document": "notice",
+            "clause": "11, Main exam note",
+            "page": 11
+          },
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

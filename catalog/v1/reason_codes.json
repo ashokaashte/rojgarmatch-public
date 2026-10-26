@@ -1,0 +1,222 @@
+{
+  "description": "Append-only registry of verdict reasons (CLAUDE.md rule 16). The bit is the position in the QR reason bitmask (32 bits). Never change or reuse a bit or code once released; only add new ones. Kannada text is a draft until the T14 native-speaker review.",
+  "released": false,
+  "codes": [
+    {
+      "bit": 0,
+      "code": "DEBARRED",
+      "severity": "BARRIER",
+      "step": 1,
+      "message_en": "You said you are debarred from government recruitment. Debarred candidates cannot be appointed.",
+      "message_kn": "ನೀವು ಸರ್ಕಾರಿ ನೇಮಕಾತಿಯಿಂದ ಡಿಬಾರ್ ಆಗಿದ್ದೀರಿ ಎಂದು ತಿಳಿಸಿದ್ದೀರಿ. ಡಿಬಾರ್ ಆದವರನ್ನು ನೇಮಕ ಮಾಡಲಾಗುವುದಿಲ್ಲ."
+    },
+    {
+      "bit": 1,
+      "code": "ATTEMPTS_EXHAUSTED",
+      "severity": "BARRIER",
+      "step": 1,
+      "message_en": "You have used all the attempts allowed for your category in this exam.",
+      "message_kn": "ಈ ಪರೀಕ್ಷೆಗೆ ನಿಮ್ಮ ಪ್ರವರ್ಗಕ್ಕೆ ಅನುಮತಿಸಿದ ಎಲ್ಲಾ ಅವಕಾಶಗಳನ್ನು ನೀವು ಬಳಸಿದ್ದೀರಿ."
+    },
+    {
+      "bit": 2,
+      "code": "ATTEMPTS_UNKNOWN",
+      "severity": "AUDIT",
+      "step": 1,
+      "message_en": "This exam limits the number of attempts. Check how many times you have already appeared.",
+      "message_kn": "ಈ ಪರೀಕ್ಷೆಗೆ ಅವಕಾಶಗಳ ಮಿತಿ ಇದೆ. ನೀವು ಈಗಾಗಲೇ ಎಷ್ಟು ಬಾರಿ ಬರೆದಿದ್ದೀರಿ ಎಂದು ಪರಿಶೀಲಿಸಿ."
+    },
+    {
+      "bit": 3,
+      "code": "TREATED_AS_GM_NON_DOMICILE",
+      "severity": "INFO",
+      "step": 2,
+      "message_en": "You are not from Karnataka, so you are considered under General Merit only.",
+      "message_kn": "ನೀವು ಕರ್ನಾಟಕದವರಲ್ಲದ ಕಾರಣ ನಿಮ್ಮನ್ನು ಸಾಮಾನ್ಯ ಅರ್ಹತೆಯಡಿ ಮಾತ್ರ ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ."
+    },
+    {
+      "bit": 4,
+      "code": "TREATED_AS_GM_NO_KARNATAKA_CERT",
+      "severity": "INFO",
+      "step": 2,
+      "message_en": "Your caste certificate is not issued in Karnataka, so you are considered under General Merit only.",
+      "message_kn": "ನಿಮ್ಮ ಜಾತಿ ಪ್ರಮಾಣ ಪತ್ರ ಕರ್ನಾಟಕದಲ್ಲಿ ನೀಡಿದ್ದಲ್ಲ. ಆದ್ದರಿಂದ ನಿಮ್ಮನ್ನು ಸಾಮಾನ್ಯ ಅರ್ಹತೆಯಡಿ ಮಾತ್ರ ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ."
+    },
+    {
+      "bit": 5,
+      "code": "CASTE_CERT_INVALID",
+      "severity": "AUDIT",
+      "step": 2,
+      "message_en": "Your caste and income certificate will not be valid on the last date, or was issued after it. Without a valid one you will be considered under General Merit. Get a new certificate before the last date.",
+      "message_kn": "ನಿಮ್ಮ ಜಾತಿ ಮತ್ತು ಆದಾಯ ಪ್ರಮಾಣ ಪತ್ರ ಕೊನೆಯ ದಿನಾಂಕದಂದು ಮಾನ್ಯವಾಗಿರುವುದಿಲ್ಲ ಅಥವಾ ನಂತರ ಪಡೆದದ್ದು. ಮಾನ್ಯ ಪ್ರಮಾಣ ಪತ್ರ ಇಲ್ಲದಿದ್ದರೆ ಸಾಮಾನ್ಯ ಅರ್ಹತೆಯಡಿ ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ. ಕೊನೆಯ ದಿನಾಂಕದೊಳಗೆ ಹೊಸ ಪ್ರಮಾಣ ಪತ್ರ ಪಡೆಯಿರಿ."
+    },
+    {
+      "bit": 6,
+      "code": "AGE_BELOW_MIN",
+      "severity": "BARRIER",
+      "step": 3,
+      "message_en": "You are younger than the minimum age on the age cut-off date.",
+      "message_kn": "ವಯೋಮಿತಿ ಲೆಕ್ಕಹಾಕುವ ದಿನಾಂಕದಂದು ನಿಮ್ಮ ವಯಸ್ಸು ಕನಿಷ್ಠ ವಯೋಮಿತಿಗಿಂತ ಕಡಿಮೆ ಇದೆ."
+    },
+    {
+      "bit": 7,
+      "code": "AGE_ABOVE_MAX",
+      "severity": "BARRIER",
+      "step": 3,
+      "message_en": "You are older than the maximum age allowed for you on the age cut-off date, even with the relaxations that apply to you.",
+      "message_kn": "ನಿಮಗೆ ಅನ್ವಯಿಸುವ ಸಡಿಲಿಕೆಗಳನ್ನು ಸೇರಿಸಿದರೂ, ವಯೋಮಿತಿ ಲೆಕ್ಕಹಾಕುವ ದಿನಾಂಕದಂದು ನಿಮ್ಮ ವಯಸ್ಸು ಗರಿಷ್ಠ ಮಿತಿಗಿಂತ ಹೆಚ್ಚಿದೆ."
+    },
+    {
+      "bit": 8,
+      "code": "AGE_RELAXATION_USED",
+      "severity": "INFO",
+      "step": 3,
+      "message_en": "You are within the age limit only because of an age relaxation. Carry the certificate that gives you the relaxation.",
+      "message_kn": "ವಯೋಮಿತಿ ಸಡಿಲಿಕೆಯಿಂದ ಮಾತ್ರ ನೀವು ವಯೋಮಿತಿಯೊಳಗೆ ಇದ್ದೀರಿ. ಸಡಿಲಿಕೆ ನೀಡುವ ಪ್ರಮಾಣ ಪತ್ರವನ್ನು ತೆಗೆದುಕೊಂಡು ಹೋಗಿ."
+    },
+    {
+      "bit": 9,
+      "code": "AGE_RELAXATION_STACKING_UNCLEAR",
+      "severity": "AUDIT",
+      "step": 3,
+      "message_en": "You are within the age limit only if two relaxations are added together. The notice does not say whether they add up. Ask the recruiting office before applying.",
+      "message_kn": "ಎರಡು ಸಡಿಲಿಕೆಗಳನ್ನು ಸೇರಿಸಿದರೆ ಮಾತ್ರ ನೀವು ವಯೋಮಿತಿಯೊಳಗೆ ಇರುತ್ತೀರಿ. ಅವುಗಳನ್ನು ಸೇರಿಸಬಹುದೇ ಎಂದು ಅಧಿಸೂಚನೆ ಹೇಳುವುದಿಲ್ಲ. ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಮೊದಲು ನೇಮಕಾತಿ ಕಚೇರಿಯನ್ನು ಕೇಳಿ."
+    },
+    {
+      "bit": 10,
+      "code": "QUALIFICATION_MISSING",
+      "severity": "BARRIER",
+      "step": 4,
+      "message_en": "None of your qualifications matches the educational qualification required for this post.",
+      "message_kn": "ಈ ಹುದ್ದೆಗೆ ಬೇಕಾದ ಶೈಕ್ಷಣಿಕ ವಿದ್ಯಾರ್ಹತೆಗೆ ನಿಮ್ಮ ಯಾವುದೇ ವಿದ್ಯಾರ್ಹತೆ ಹೊಂದುವುದಿಲ್ಲ."
+    },
+    {
+      "bit": 11,
+      "code": "QUALIFICATION_AFTER_CUTOFF",
+      "severity": "BARRIER",
+      "step": 4,
+      "message_en": "Your qualification was passed after the date by which the notice requires it.",
+      "message_kn": "ಅಧಿಸೂಚನೆ ನಿಗದಿಪಡಿಸಿದ ದಿನಾಂಕದ ನಂತರ ನೀವು ವಿದ್ಯಾರ್ಹತೆ ಪಾಸು ಮಾಡಿದ್ದೀರಿ."
+    },
+    {
+      "bit": 12,
+      "code": "QUALIFICATION_VIA_EQUIVALENCE",
+      "severity": "AUDIT",
+      "step": 4,
+      "message_en": "Your qualification matches only through an equivalence. Carry the order or certificate that declares it equivalent.",
+      "message_kn": "ನಿಮ್ಮ ವಿದ್ಯಾರ್ಹತೆ ಸಮಾನತೆಯ ಮೂಲಕ ಮಾತ್ರ ಹೊಂದುತ್ತದೆ. ಸಮಾನವೆಂದು ಘೋಷಿಸಿದ ಆದೇಶ ಅಥವಾ ಪ್ರಮಾಣ ಪತ್ರವನ್ನು ತೆಗೆದುಕೊಂಡು ಹೋಗಿ."
+    },
+    {
+      "bit": 13,
+      "code": "QUALIFICATION_APPEARING",
+      "severity": "AUDIT",
+      "step": 4,
+      "message_en": "You are still studying for the qualification. You may apply, but you must submit proof of passing by the date the notice gives.",
+      "message_kn": "ನೀವು ಇನ್ನೂ ವಿದ್ಯಾರ್ಹತೆಯ ಅಧ್ಯಯನದಲ್ಲಿದ್ದೀರಿ. ಅರ್ಜಿ ಸಲ್ಲಿಸಬಹುದು, ಆದರೆ ಅಧಿಸೂಚನೆ ನೀಡಿದ ದಿನಾಂಕದೊಳಗೆ ಪಾಸಾದ ಪ್ರಮಾಣ ಸಲ್ಲಿಸಬೇಕು."
+    },
+    {
+      "bit": 14,
+      "code": "GATE_FAILED",
+      "severity": "BARRIER",
+      "step": 5,
+      "message_en": "You do not meet a physical, typing or shorthand standard required for this post.",
+      "message_kn": "ಈ ಹುದ್ದೆಗೆ ಬೇಕಾದ ದೈಹಿಕ, ಬೆರಳಚ್ಚು ಅಥವಾ ಶೀಘ್ರಲಿಪಿ ಮಾನದಂಡವನ್ನು ನೀವು ಪೂರೈಸುವುದಿಲ್ಲ."
+    },
+    {
+      "bit": 15,
+      "code": "LANGUAGE_TEST_LATER",
+      "severity": "INFO",
+      "step": 5,
+      "message_en": "There is a compulsory Kannada and English language paper in the exam. You must pass it to be selected.",
+      "message_kn": "ಪರೀಕ್ಷೆಯಲ್ಲಿ ಕಡ್ಡಾಯ ಕನ್ನಡ ಮತ್ತು ಇಂಗ್ಲಿಷ್ ಭಾಷಾ ಪತ್ರಿಕೆ ಇದೆ. ಆಯ್ಕೆಯಾಗಲು ಅದರಲ್ಲಿ ಉತ್ತೀರ್ಣರಾಗಬೇಕು."
+    },
+    {
+      "bit": 16,
+      "code": "LOCAL_STATUS_NOT_PROVEN",
+      "severity": "AUDIT",
+      "step": 6,
+      "message_en": "This is a Kalyana-Karnataka (Hyderabad-Karnataka) local post and you do not have the Article 371J certificate. It is not clear whether you can be selected. Check with the recruiting office.",
+      "message_kn": "ಇದು ಕಲ್ಯಾಣ ಕರ್ನಾಟಕ (ಹೈದ್ರಾಬಾದ್-ಕರ್ನಾಟಕ) ಸ್ಥಳೀಯ ವೃಂದದ ಹುದ್ದೆ. ನಿಮ್ಮ ಬಳಿ 371(ಜೆ) ಪ್ರಮಾಣ ಪತ್ರ ಇಲ್ಲ. ನೀವು ಆಯ್ಕೆಯಾಗಬಹುದೇ ಎಂಬುದು ಸ್ಪಷ್ಟವಿಲ್ಲ. ನೇಮಕಾತಿ ಕಚೇರಿಯಲ್ಲಿ ವಿಚಾರಿಸಿ."
+    },
+    {
+      "bit": 17,
+      "code": "LOCAL_VIA_SERVICE_BOOK",
+      "severity": "AUDIT",
+      "step": 6,
+      "message_en": "You claim local status through your service book. Get the native-village certificate from your head of office.",
+      "message_kn": "ನೀವು ಸೇವಾ ಪುಸ್ತಕದ ಮೂಲಕ ಸ್ಥಳೀಯ ಸ್ಥಾನಮಾನ ಕೋರುತ್ತಿದ್ದೀರಿ. ಕಚೇರಿ ಮುಖ್ಯಸ್ಥರಿಂದ ಸ್ವಗ್ರಾಮ ಪ್ರಮಾಣ ಪತ್ರ ಪಡೆಯಿರಿ."
+    },
+    {
+      "bit": 18,
+      "code": "RURAL_CLAIM_INCOMPLETE",
+      "severity": "AUDIT",
+      "step": 6,
+      "message_en": "To claim rural reservation as a General Merit candidate you also need the non-creamy-layer certificate (Form-1). Without it, rural seats are not counted for you.",
+      "message_kn": "ಸಾಮಾನ್ಯ ಅರ್ಹತೆಯ ಅಭ್ಯರ್ಥಿಯಾಗಿ ಗ್ರಾಮೀಣ ಮೀಸಲಾತಿ ಕೋರಲು ಕೆನೆಪದರಕ್ಕೆ ಸೇರಿಲ್ಲದ ಪ್ರಮಾಣ ಪತ್ರ (ನಮೂನೆ-1) ಸಹ ಬೇಕು. ಅದಿಲ್ಲದೆ ಗ್ರಾಮೀಣ ಸ್ಥಾನಗಳನ್ನು ನಿಮಗೆ ಎಣಿಸಲಾಗುವುದಿಲ್ಲ."
+    },
+    {
+      "bit": 19,
+      "code": "PWD_TYPE_NOT_LISTED",
+      "severity": "AUDIT",
+      "step": 6,
+      "message_en": "Your type of disability is not listed for this post. The notice says candidates with other disabilities may not be considered. Check with the recruiting office.",
+      "message_kn": "ನಿಮ್ಮ ಅಂಗವಿಕಲತೆಯ ಪ್ರಕಾರ ಈ ಹುದ್ದೆಗೆ ಪಟ್ಟಿ ಮಾಡಿಲ್ಲ. ಬೇರೆ ಅಂಗವಿಕಲತೆ ಇರುವವರನ್ನು ಪರಿಗಣಿಸದಿರಬಹುದು ಎಂದು ಅಧಿಸೂಚನೆ ಹೇಳುತ್ತದೆ. ನೇಮಕಾತಿ ಕಚೇರಿಯಲ್ಲಿ ವಿಚಾರಿಸಿ."
+    },
+    {
+      "bit": 20,
+      "code": "PWD_BELOW_40",
+      "severity": "INFO",
+      "step": 6,
+      "message_en": "Your disability is below 40%, so you cannot use the disability reservation or age relaxation.",
+      "message_kn": "ನಿಮ್ಮ ಅಂಗವಿಕಲತೆ ಶೇ. 40ಕ್ಕಿಂತ ಕಡಿಮೆ ಇದೆ. ಆದ್ದರಿಂದ ಅಂಗವಿಕಲರ ಮೀಸಲಾತಿ ಅಥವಾ ವಯೋಮಿತಿ ಸಡಿಲಿಕೆ ಬಳಸಲಾಗುವುದಿಲ್ಲ."
+    },
+    {
+      "bit": 21,
+      "code": "NO_SEATS_FOR_YOU",
+      "severity": "BARRIER",
+      "step": 7,
+      "message_en": "There are no seats in this post for your category and groups.",
+      "message_kn": "ಈ ಹುದ್ದೆಯಲ್ಲಿ ನಿಮ್ಮ ಪ್ರವರ್ಗ ಮತ್ತು ಗುಂಪುಗಳಿಗೆ ಯಾವುದೇ ಸ್ಥಾನಗಳಿಲ್ಲ."
+    },
+    {
+      "bit": 22,
+      "code": "GM_SEATS_NOT_COUNTED",
+      "severity": "INFO",
+      "step": 7,
+      "message_en": "Because you used an age relaxation, General Merit seats are not counted for you.",
+      "message_kn": "ನೀವು ವಯೋಮಿತಿ ಸಡಿಲಿಕೆ ಬಳಸಿರುವುದರಿಂದ ಸಾಮಾನ್ಯ ಅರ್ಹತೆಯ ಸ್ಥಾನಗಳನ್ನು ನಿಮಗೆ ಎಣಿಸಲಾಗುವುದಿಲ್ಲ."
+    },
+    {
+      "bit": 23,
+      "code": "NOTICE_CLOSED",
+      "severity": "INFO",
+      "step": 9,
+      "message_en": "The last date for applications has passed.",
+      "message_kn": "ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಕೊನೆಯ ದಿನಾಂಕ ಮುಗಿದಿದೆ."
+    },
+    {
+      "bit": 24,
+      "code": "QUALIFICATION_PERCENT_BELOW_MIN",
+      "severity": "BARRIER",
+      "step": 4,
+      "message_en": "Your marks in the required qualification are below the minimum percentage this post asks for.",
+      "message_kn": "ಅಗತ್ಯ ವಿದ್ಯಾರ್ಹತೆಯಲ್ಲಿ ನಿಮ್ಮ ಅಂಕಗಳು ಈ ಹುದ್ದೆ ಕೇಳುವ ಕನಿಷ್ಠ ಶೇಕಡಾವಾರುಗಿಂತ ಕಡಿಮೆ ಇವೆ."
+    },
+    {
+      "bit": 25,
+      "code": "QUALIFICATION_PERCENT_UNKNOWN",
+      "severity": "AUDIT",
+      "step": 4,
+      "message_en": "This post needs a minimum percentage in the qualification. Enter your percentage, and check your marks card against the notice.",
+      "message_kn": "ಈ ಹುದ್ದೆಗೆ ವಿದ್ಯಾರ್ಹತೆಯಲ್ಲಿ ಕನಿಷ್ಠ ಶೇಕಡಾವಾರು ಬೇಕು. ನಿಮ್ಮ ಶೇಕಡಾವಾರು ನಮೂದಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಅಂಕಪಟ್ಟಿಯನ್ನು ಅಧಿಸೂಚನೆಯೊಂದಿಗೆ ಹೋಲಿಸಿ."
+    },
+    {
+      "bit": 26,
+      "code": "GATE_UNKNOWN",
+      "severity": "AUDIT",
+      "step": 5,
+      "message_en": "This post has a physical, typing, shorthand or language standard, and your profile does not say whether you meet it. Check the standard in the notice.",
+      "message_kn": "ಈ ಹುದ್ದೆಗೆ ದೈಹಿಕ, ಬೆರಳಚ್ಚು, ಶೀಘ್ರಲಿಪಿ ಅಥವಾ ಭಾಷಾ ಮಾನದಂಡವಿದೆ. ನೀವು ಅದನ್ನು ಪೂರೈಸುತ್ತೀರಾ ಎಂದು ನಿಮ್ಮ ವಿವರಗಳಲ್ಲಿ ಇಲ್ಲ. ಅಧಿಸೂಚನೆಯಲ್ಲಿ ಮಾನದಂಡವನ್ನು ಪರಿಶೀಲಿಸಿ."
+    }
+  ]
+}
