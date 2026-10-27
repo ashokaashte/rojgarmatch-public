@@ -1,0 +1,20 @@
+{
+  "description": "Documents the app can list under 'Documents to carry' (CLAUDE.md section 7, step 10). Append-only. Kannada text is a draft until the T14 review.",
+  "codes": [
+    { "code": "DOB_PROOF", "text_en": "SSLC marks card, SSLC transfer certificate or cumulative-record extract (proof of birth date)", "text_kn": "ಎಸ್.ಎಸ್.ಎಲ್.ಸಿ ಅಂಕಪಟ್ಟಿ, ವರ್ಗಾವಣೆ ಪ್ರಮಾಣ ಪತ್ರ ಅಥವಾ ಸಂಚಿತ ದಾಖಲೆಯ ಉದ್ಧೃತ ಭಾಗ (ಜನ್ಮ ದಿನಾಂಕದ ಪುರಾವೆ)" },
+    { "code": "QUALIFICATION_CERTIFICATE", "text_en": "Degree certificate and marks cards for the required qualification", "text_kn": "ಅಗತ್ಯ ವಿದ್ಯಾರ್ಹತೆಯ ಪದವಿ ಪ್ರಮಾಣ ಪತ್ರ ಮತ್ತು ಅಂಕಪಟ್ಟಿಗಳು" },
+    { "code": "EQUIVALENCE_ORDER", "text_en": "Order or certificate declaring your qualification equivalent", "text_kn": "ನಿಮ್ಮ ವಿದ್ಯಾರ್ಹತೆ ಸಮಾನವೆಂದು ಘೋಷಿಸಿದ ಆದೇಶ ಅಥವಾ ಪ್ರಮಾಣ ಪತ್ರ" },
+    { "code": "CASTE_FORM_D", "text_en": "Caste certificate in Form-D from the Tahsildar (SC/ST)", "text_kn": "ತಹಶೀಲ್ದಾರರಿಂದ ನಮೂನೆ-ಡಿ ಜಾತಿ ಪ್ರಮಾಣ ಪತ್ರ (ಪ.ಜಾ/ಪ.ಪಂ)" },
+    { "code": "CASTE_FORM_E", "text_en": "Caste certificate in Form-E from the Tahsildar (Category-1)", "text_kn": "ತಹಶೀಲ್ದಾರರಿಂದ ನಮೂನೆ-ಇ ಜಾತಿ ಪ್ರಮಾಣ ಪತ್ರ (ಪ್ರವರ್ಗ-1)" },
+    { "code": "CASTE_INCOME_FORM_F", "text_en": "Caste and income certificate in Form-F from the Tahsildar, valid on the last date (2A/2B/3A/3B)", "text_kn": "ಕೊನೆಯ ದಿನಾಂಕದಂದು ಮಾನ್ಯವಿರುವ ತಹಶೀಲ್ದಾರರ ನಮೂನೆ-ಎಫ್ ಜಾತಿ ಮತ್ತು ಆದಾಯ ಪ್ರಮಾಣ ಪತ್ರ (2ಎ/2ಬಿ/3ಎ/3ಬಿ)" },
+    { "code": "RURAL_FORM_2", "text_en": "Rural study certificate (Form-2), classes 1 to 10", "text_kn": "ಗ್ರಾಮೀಣ ವ್ಯಾಸಂಗ ಪ್ರಮಾಣ ಪತ್ರ (ನಮೂನೆ-2), 1 ರಿಂದ 10ನೇ ತರಗತಿ" },
+    { "code": "RURAL_FORM_1", "text_en": "Non-creamy-layer certificate (Form-1) from the Tahsildar, for General Merit rural candidates", "text_kn": "ಸಾಮಾನ್ಯ ಅರ್ಹತೆಯ ಗ್ರಾಮೀಣ ಅಭ್ಯರ್ಥಿಗಳಿಗೆ ತಹಶೀಲ್ದಾರರಿಂದ ಕೆನೆಪದರಕ್ಕೆ ಸೇರಿಲ್ಲದ ಪ್ರಮಾಣ ಪತ್ರ (ನಮೂನೆ-1)" },
+    { "code": "KANNADA_MEDIUM_CERT", "text_en": "Kannada-medium study certificate (classes 1 to 10) from the headmaster", "text_kn": "ಮುಖ್ಯೋಪಾಧ್ಯಾಯರಿಂದ ಕನ್ನಡ ಮಾಧ್ಯಮ ವ್ಯಾಸಂಗ ಪ್ರಮಾಣ ಪತ್ರ (1 ರಿಂದ 10ನೇ ತರಗತಿ)" },
+    { "code": "PWD_CERT", "text_en": "Disability certificate in the prescribed format", "text_kn": "ನಿಗದಿತ ನಮೂನೆಯ ಅಂಗವಿಕಲತೆ ಪ್ರಮಾಣ ಪತ್ರ" },
+    { "code": "EXSM_PROOF", "text_en": "Ex-serviceman discharge certificate or service proof", "text_kn": "ಮಾಜಿ ಸೈನಿಕರ ಬಿಡುಗಡೆ ಪ್ರಮಾಣ ಪತ್ರ ಅಥವಾ ಸೇವಾ ಪುರಾವೆ" },
+    { "code": "WIDOW_CERT", "text_en": "Certificate that you are a widow and have not remarried", "text_kn": "ನೀವು ವಿಧವೆ ಮತ್ತು ಮರುಮದುವೆಯಾಗಿಲ್ಲ ಎಂಬ ಪ್ರಮಾಣ ಪತ್ರ" },
+    { "code": "TG_CERT", "text_en": "Transgender certificate from the District Magistrate", "text_kn": "ಜಿಲ್ಲಾ ದಂಡಾಧಿಕಾರಿಯವರಿಂದ ತೃತೀಯ ಲಿಂಗಿ ಪ್ರಮಾಣ ಪತ್ರ" },
+    { "code": "HK_ANNEXURE_A", "text_en": "Article 371J local-person certificate (Annexure-A) from the Assistant Commissioner", "text_kn": "ಸಹಾಯಕ ಆಯುಕ್ತರಿಂದ 371(ಜೆ) ಸ್ಥಳೀಯ ವ್ಯಕ್ತಿ ಪ್ರಮಾಣ ಪತ್ರ (ಅನುಬಂಧ-ಎ)" },
+    { "code": "HK_NATIVE_VILLAGE_CERT", "text_en": "Native-village certificate from your head of office (government servants)", "text_kn": "ಕಚೇರಿ ಮುಖ್ಯಸ್ಥರಿಂದ ಸ್ವಗ್ರಾಮ ಪ್ರಮಾಣ ಪತ್ರ (ಸರ್ಕಾರಿ ನೌಕರರಿಗೆ)" }
+  ]
+}

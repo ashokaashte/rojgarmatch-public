@@ -1,0 +1,238 @@
+{
+  "description": "Warnings the app shows on notices (and on the cafe slip later) when a court case, policy change or data limit may change what a notice says. Kept apart from the notice files so one update covers every affected notice and the verified notice data is never edited. 'applies_to.notices' lists notice_ids, or ['*'] for every notice; 'boards' narrows by board (empty = all); 'categories' lists the claimed categories the warning is for (empty = everyone). Every advisory has a review_by date: tools/validate_data.py and tools/notice_watch.py warn when it has passed. Kannada text is a draft until the native-speaker review (docs/BUILD2_CHECKS.md). Append only: retire an advisory with \"retired\": true, never delete or reuse an id.",
+  "advisories": [
+    {
+      "id": "sc-st-quota-court-2026",
+      "kind": "COURT_CASE",
+      "applies_to": {
+        "notices": [
+          "*"
+        ],
+        "boards": [],
+        "categories": []
+      },
+      "title_en": "Seat numbers may change: SC/ST quota court case",
+      "title_kn": "ಸ್ಥಾನಗಳ ಸಂಖ್ಯೆ ಬದಲಾಗಬಹುದು: ಪ.ಜಾ/ಪ.ಪಂ ಮೀಸಲಾತಿ ನ್ಯಾಯಾಲಯ ಪ್ರಕರಣ",
+      "text_en": "On 12 October 2026 the Karnataka High Court struck down the 2022 law that raised SC and ST reservation. The state has said it will appeal to the Supreme Court. Seat tables in notices may be revised, for every category. Check the official website for a corrigendum before you apply.",
+      "text_kn": "12 ಅಕ್ಟೋಬರ್ 2026 ರಂದು ಕರ್ನಾಟಕ ಹೈಕೋರ್ಟ್ ಪ.ಜಾ ಮತ್ತು ಪ.ಪಂ ಮೀಸಲಾತಿಯನ್ನು ಹೆಚ್ಚಿಸಿದ 2022 ರ ಕಾನೂನನ್ನು ರದ್ದುಗೊಳಿಸಿದೆ. ರಾಜ್ಯ ಸರ್ಕಾರ ಸುಪ್ರೀಂ ಕೋರ್ಟ್‌ಗೆ ಮೇಲ್ಮನವಿ ಸಲ್ಲಿಸುವುದಾಗಿ ಹೇಳಿದೆ. ಅಧಿಸೂಚನೆಗಳ ಸ್ಥಾನ ಹಂಚಿಕೆ ಎಲ್ಲಾ ಪ್ರವರ್ಗಗಳಿಗೂ ಬದಲಾಗಬಹುದು. ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಮೊದಲು ಅಧಿಕೃತ ವೆಬ್‌ಸೈಟ್‌ನಲ್ಲಿ ತಿದ್ದುಪಡಿ ಇದೆಯೇ ಎಂದು ನೋಡಿ.",
+      "sources": [
+        {
+          "title": "LiveLaw: Karnataka High Court strikes down law raising reservation",
+          "url": "https://www.livelaw.in/high-court/karnataka-high-court/karnataka-high-court-strikes-down-law-raising-reservation-educational-institutes-government-jobs-554459",
+          "date": "2026-10-13",
+          "strength": "SECONDARY"
+        },
+        {
+          "title": "South First: Karnataka HC strikes down SC/ST quota hike",
+          "url": "https://thesouthfirst.com/karnataka/karnataka-hc-strikes-down-sc-st-quota-hike-state-likely-to-move-supreme-court/",
+          "date": "2026-10-13",
+          "strength": "SECONDARY"
+        }
+      ],
+      "legal_questions": [
+        1
+      ],
+      "added": "2026-10-27",
+      "review_by": "2026-11-27",
+      "verified": false
+    },
+    {
+      "id": "category-2b-supreme-court",
+      "kind": "COURT_CASE",
+      "applies_to": {
+        "notices": [
+          "*"
+        ],
+        "boards": [],
+        "categories": [
+          "CAT_2B"
+        ]
+      },
+      "title_en": "Category 2B is before the Supreme Court",
+      "title_kn": "ಪ್ರವರ್ಗ 2ಬಿ ಪ್ರಕರಣ ಸುಪ್ರೀಂ ಕೋರ್ಟ್‌ನಲ್ಲಿದೆ",
+      "text_en": "The 2023 order that removed the Category 2B reservation is on hold under a Supreme Court status-quo order, so current notices still have 2B seats. If the court decides the case, 2B seats may change.",
+      "text_kn": "ಪ್ರವರ್ಗ 2ಬಿ ಮೀಸಲಾತಿಯನ್ನು ತೆಗೆದುಹಾಕಿದ 2023 ರ ಆದೇಶವು ಸುಪ್ರೀಂ ಕೋರ್ಟ್‌ನ ಯಥಾಸ್ಥಿತಿ ಆದೇಶದಿಂದ ತಡೆಹಿಡಿಯಲ್ಪಟ್ಟಿದೆ, ಆದ್ದರಿಂದ ಈಗಿನ ಅಧಿಸೂಚನೆಗಳಲ್ಲಿ 2ಬಿ ಸ್ಥಾನಗಳಿವೆ. ನ್ಯಾಯಾಲಯ ತೀರ್ಪು ನೀಡಿದರೆ 2ಬಿ ಸ್ಥಾನಗಳು ಬದಲಾಗಬಹುದು.",
+      "sources": [
+        {
+          "title": "LiveLaw: Supreme Court on Karnataka Muslim reservation (status quo)",
+          "url": "https://www.livelaw.in/top-stories/karnataka-muslim-reservation-supreme-court-obc-4-percent-withdrawn-lingayats-226601",
+          "date": "2023-04-18",
+          "strength": "SECONDARY"
+        },
+        {
+          "title": "The Hans India: Focus shifts to government's stand on 2B reservation",
+          "url": "https://www.thehansindia.com/karnataka/focus-shifts-to-govts-stand-on-2b-reservation-for-muslims-1075850",
+          "date": "2026-05-15",
+          "strength": "SECONDARY"
+        }
+      ],
+      "legal_questions": [
+        10
+      ],
+      "added": "2026-10-27",
+      "review_by": "2026-11-27",
+      "verified": false
+    },
+    {
+      "id": "one-time-age-relaxation-2026",
+      "kind": "POLICY_CHANGE",
+      "applies_to": {
+        "notices": [
+          "kpsc-2026-saad-hk-audit-officer"
+        ],
+        "boards": [],
+        "categories": []
+      },
+      "title_en": "Age limits include a one-time relaxation",
+      "title_kn": "ವಯೋಮಿತಿಯಲ್ಲಿ ಒಂದು ಬಾರಿಯ ಸಡಿಲಿಕೆ ಸೇರಿದೆ",
+      "text_en": "The age limits in this notice already include a one-time relaxation of 5 years (Government Order dated 29-01-2026). Later notices may use lower age limits, so do not assume the same limits next time.",
+      "text_kn": "ಈ ಅಧಿಸೂಚನೆಯ ವಯೋಮಿತಿಯಲ್ಲಿ 5 ವರ್ಷಗಳ ಒಂದು ಬಾರಿಯ ಸಡಿಲಿಕೆ (29-01-2026 ರ ಸರ್ಕಾರಿ ಆದೇಶ) ಈಗಾಗಲೇ ಸೇರಿದೆ. ಮುಂದಿನ ಅಧಿಸೂಚನೆಗಳಲ್ಲಿ ವಯೋಮಿತಿ ಕಡಿಮೆ ಇರಬಹುದು, ಆದ್ದರಿಂದ ಮುಂದಿನ ಬಾರಿಯೂ ಇದೇ ಮಿತಿ ಇರುತ್ತದೆ ಎಂದು ಭಾವಿಸಬೇಡಿ.",
+      "sources": [
+        {
+          "title": "KPSC SAAD-HK notice 27-08-2026, clause 9, page 8",
+          "url": "https://demo.karnataka.gov.in/kpsc2/public/uploads/SAAD_HK_Notification_dt_27-08-2026_1787914998.pdf",
+          "date": "2026-08-27",
+          "strength": "PRIMARY"
+        }
+      ],
+      "legal_questions": [],
+      "added": "2026-10-27",
+      "review_by": "2027-01-27",
+      "verified": false
+    },
+    {
+      "id": "certificates-by-last-date",
+      "kind": "DATA_NOTE",
+      "applies_to": {
+        "notices": [
+          "*"
+        ],
+        "boards": [],
+        "categories": []
+      },
+      "title_en": "Every certificate must be dated by the last date",
+      "title_kn": "ಎಲ್ಲಾ ಪ್ರಮಾಣಪತ್ರಗಳು ಕೊನೆಯ ದಿನಾಂಕದೊಳಗಿನವಾಗಿರಬೇಕು",
+      "text_en": "Every certificate you rely on (caste, income, Kalyana-Karnataka, rural, Kannada medium, disability, ex-servicemen) must be dated on or before the last date for applications. Courts have refused later certificates even when the office issued them late. Apply for missing certificates now.",
+      "text_kn": "ನೀವು ಆಧರಿಸುವ ಪ್ರತಿಯೊಂದು ಪ್ರಮಾಣಪತ್ರ (ಜಾತಿ, ಆದಾಯ, ಕಲ್ಯಾಣ-ಕರ್ನಾಟಕ, ಗ್ರಾಮೀಣ, ಕನ್ನಡ ಮಾಧ್ಯಮ, ಅಂಗವಿಕಲತೆ, ಮಾಜಿ ಸೈನಿಕ) ಅರ್ಜಿ ಸಲ್ಲಿಸುವ ಕೊನೆಯ ದಿನಾಂಕದಂದು ಅಥವಾ ಅದಕ್ಕೂ ಮೊದಲು ನೀಡಿದ್ದಾಗಿರಬೇಕು. ಕಚೇರಿ ತಡವಾಗಿ ನೀಡಿದ್ದರೂ ನ್ಯಾಯಾಲಯಗಳು ನಂತರದ ಪ್ರಮಾಣಪತ್ರಗಳನ್ನು ತಿರಸ್ಕರಿಸಿವೆ. ಇಲ್ಲದ ಪ್ರಮಾಣಪತ್ರಗಳಿಗೆ ಈಗಲೇ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ.",
+      "sources": [
+        {
+          "title": "Karnataka High Court, Narahari v Selection Authority, WP 201587/2018 (Hyderabad-Karnataka eligibility certificate after the last date)",
+          "url": "https://indiankanoon.org/doc/135604693/",
+          "date": "2018-11-19",
+          "strength": "PRIMARY"
+        },
+        {
+          "title": "KPSC Gazetted Probationers 2026-27 notice, page 22: certificates after the last date not accepted",
+          "url": "https://demo.karnataka.gov.in/kpsc2/public/uploads/notification%20GP%202026_1785564344.pdf",
+          "date": "2026-07-31",
+          "strength": "PRIMARY"
+        }
+      ],
+      "legal_questions": [
+        19
+      ],
+      "added": "2026-10-27",
+      "review_by": "2027-01-27",
+      "verified": false
+    },
+    {
+      "id": "tick-every-reservation",
+      "kind": "DATA_NOTE",
+      "applies_to": {
+        "notices": [
+          "*"
+        ],
+        "boards": [
+          "KPSC"
+        ],
+        "categories": []
+      },
+      "title_en": "Claim every reservation in the online application",
+      "title_kn": "ಆನ್‌ಲೈನ್ ಅರ್ಜಿಯಲ್ಲೇ ಎಲ್ಲಾ ಮೀಸಲಾತಿಗಳನ್ನು ಕೋರಿ",
+      "text_en": "Tick every reservation you are claiming (category, women, rural, Kannada medium, Kalyana-Karnataka, disability, ex-servicemen) when you apply. A reservation not claimed in the application cannot be added later, and without original certificates at document verification you are treated as General Merit.",
+      "text_kn": "ಅರ್ಜಿ ಸಲ್ಲಿಸುವಾಗಲೇ ನೀವು ಕೋರುವ ಎಲ್ಲಾ ಮೀಸಲಾತಿಗಳನ್ನು (ಪ್ರವರ್ಗ, ಮಹಿಳೆ, ಗ್ರಾಮೀಣ, ಕನ್ನಡ ಮಾಧ್ಯಮ, ಕಲ್ಯಾಣ-ಕರ್ನಾಟಕ, ಅಂಗವಿಕಲತೆ, ಮಾಜಿ ಸೈನಿಕ) ಗುರುತಿಸಿ. ಅರ್ಜಿಯಲ್ಲಿ ಕೋರದ ಮೀಸಲಾತಿಯನ್ನು ನಂತರ ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ, ಮತ್ತು ದಾಖಲೆ ಪರಿಶೀಲನೆಯಲ್ಲಿ ಮೂಲ ಪ್ರಮಾಣಪತ್ರಗಳಿಲ್ಲದಿದ್ದರೆ ನಿಮ್ಮನ್ನು ಸಾಮಾನ್ಯ ಅರ್ಹತೆ ಎಂದು ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ.",
+      "sources": [
+        {
+          "title": "KPSC Gazetted Probationers 2026-27 notice, clause 2.4 (page 3) and clauses 14.2, 14.4 (page 27)",
+          "url": "https://demo.karnataka.gov.in/kpsc2/public/uploads/notification%20GP%202026_1785564344.pdf",
+          "date": "2026-07-31",
+          "strength": "PRIMARY"
+        }
+      ],
+      "legal_questions": [],
+      "added": "2026-10-27",
+      "review_by": "2027-01-27",
+      "verified": false
+    },
+    {
+      "id": "married-women-form-f",
+      "kind": "COURT_CASE",
+      "applies_to": {
+        "notices": [
+          "*"
+        ],
+        "boards": [],
+        "categories": [
+          "CAT_2A",
+          "CAT_2B",
+          "CAT_3A",
+          "CAT_3B"
+        ]
+      },
+      "title_en": "Married women: whose income counts on Form-F is disputed",
+      "title_kn": "ವಿವಾಹಿತ ಮಹಿಳೆಯರು: ನಮೂನೆ-ಎಫ್‌ನಲ್ಲಿ ಯಾರ ಆದಾಯ ಎಂಬುದು ವಿವಾದದಲ್ಲಿದೆ",
+      "text_en": "If you are a married woman claiming Category 2A, 2B, 3A or 3B: recruiters have disputed whether your father's or your husband's income counts on the caste and income certificate, and some candidates were moved to General Merit. The dispute is before the Karnataka State Administrative Tribunal. Read what this notice asks for, and ask the recruiter if unsure.",
+      "text_kn": "ನೀವು ಪ್ರವರ್ಗ 2ಎ, 2ಬಿ, 3ಎ ಅಥವಾ 3ಬಿ ಕೋರುತ್ತಿರುವ ವಿವಾಹಿತ ಮಹಿಳೆಯಾಗಿದ್ದರೆ: ಜಾತಿ ಮತ್ತು ಆದಾಯ ಪ್ರಮಾಣಪತ್ರದಲ್ಲಿ ತಂದೆಯ ಆದಾಯವೋ ಪತಿಯ ಆದಾಯವೋ ಎಂಬುದನ್ನು ನೇಮಕಾತಿ ಪ್ರಾಧಿಕಾರಗಳು ವಿವಾದಿಸಿವೆ, ಮತ್ತು ಕೆಲವು ಅಭ್ಯರ್ಥಿಗಳನ್ನು ಸಾಮಾನ್ಯ ಅರ್ಹತೆಗೆ ವರ್ಗಾಯಿಸಲಾಗಿದೆ. ಈ ವಿವಾದ ಕರ್ನಾಟಕ ರಾಜ್ಯ ಆಡಳಿತ ನ್ಯಾಯಮಂಡಳಿಯ ಮುಂದಿದೆ. ಈ ಅಧಿಸೂಚನೆ ಏನು ಕೇಳುತ್ತದೆ ಎಂದು ಓದಿ, ಖಚಿತವಿಲ್ಲದಿದ್ದರೆ ನೇಮಕಾತಿ ಪ್ರಾಧಿಕಾರವನ್ನು ಕೇಳಿ.",
+      "sources": [
+        {
+          "title": "South First: married women challenge Karnataka government in teacher recruitment",
+          "url": "https://thesouthfirst.com/karnataka/married-women-challenge-karnataka-governments-in-sc-teacher-recruitment/",
+          "date": "2023-11-22",
+          "strength": "SECONDARY"
+        }
+      ],
+      "legal_questions": [
+        18
+      ],
+      "added": "2026-10-27",
+      "review_by": "2026-12-27",
+      "verified": false
+    },
+    {
+      "id": "balija-job-category",
+      "kind": "DATA_NOTE",
+      "applies_to": {
+        "notices": [
+          "kpsc-2026-saad-hk-audit-officer"
+        ],
+        "boards": [],
+        "categories": [
+          "CAT_2A",
+          "CAT_3A"
+        ]
+      },
+      "title_en": "Balija: Category 3A for jobs, not 2A",
+      "title_kn": "ಬಲಿಜ: ಉದ್ಯೋಗಕ್ಕೆ ಪ್ರವರ್ಗ 3ಎ, 2ಎ ಅಲ್ಲ",
+      "text_en": "Balija and its sub-castes are Category 3A for government jobs, even though they are 2A for education. A 2A certificate is not accepted for this notice. Make sure your certificate is for employment.",
+      "text_kn": "ಬಲಿಜ ಮತ್ತು ಅದರ ಉಪಜಾತಿಗಳು ಶಿಕ್ಷಣಕ್ಕೆ 2ಎ ಆಗಿದ್ದರೂ ಸರ್ಕಾರಿ ಉದ್ಯೋಗಕ್ಕೆ ಪ್ರವರ್ಗ 3ಎ. ಈ ಅಧಿಸೂಚನೆಗೆ 2ಎ ಪ್ರಮಾಣಪತ್ರ ಸ್ವೀಕಾರವಾಗುವುದಿಲ್ಲ. ನಿಮ್ಮ ಪ್ರಮಾಣಪತ್ರ ಉದ್ಯೋಗಕ್ಕಾಗಿ ಇದೆಯೇ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.",
+      "sources": [
+        {
+          "title": "KPSC SAAD-HK notice 27-08-2026, certificate note (GO SWD 179 BCA 2010 dated 16-07-2011)",
+          "url": "https://demo.karnataka.gov.in/kpsc2/public/uploads/SAAD_HK_Notification_dt_27-08-2026_1787914998.pdf",
+          "date": "2026-08-27",
+          "strength": "PRIMARY"
+        },
+        {
+          "title": "Karnataka High Court, Praveen Venkatapura v State, WP 107427/2025",
+          "url": "https://indiankanoon.org/doc/127549742/",
+          "date": "2026-07-21",
+          "strength": "PRIMARY"
+        }
+      ],
+      "legal_questions": [],
+      "added": "2026-10-27",
+      "review_by": "2027-01-27",
+      "verified": false
+    }
+  ]
+}

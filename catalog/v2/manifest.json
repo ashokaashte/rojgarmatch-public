@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "catalog_version": 2,
+  "created": "2026-10-26T19:25:59Z",
+  "files": [
+    {
+      "path": "advisories.json",
+      "sha256": "a7e07c177ed7ba459ceb533bdcd53c3fb9e0575c4d5f2553aa23a6e6fcdff1b9",
+      "bytes": 15371
+    },
+    {
+      "path": "document_codes.json",
+      "sha256": "de35fb56bd80cb685a7a11073a2084c2081cdbc17d6de24fa392c840ee390251",
+      "bytes": 4571
+    },
+    {
+      "path": "equivalences.json",
+      "sha256": "95b624d27c1e28a5731231aa23c27ac032581ed56578cc7488a91deb004456b0",
+      "bytes": 2875
+    },
+    {
+      "path": "notices/kpsc-2026-saad-hk-audit-officer.json",
+      "sha256": "64370c40ea7737422da5637dc237f0a7c82f090da225d282399574ddafa12d9e",
+      "bytes": 27224
+    },
+    {
+      "path": "reason_codes.json",
+      "sha256": "da896fea88f0f128bbe751878f3fdde9c9d81f54cb8296b8b9139632c6037b39",
+      "bytes": 15492
+    }
+  ]
+}

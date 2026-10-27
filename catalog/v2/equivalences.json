@@ -1,0 +1,45 @@
+{
+  "description": "Qualification equivalence edges (CLAUDE.md section 7, step 4). A match through any edge gives AUDIT ('carry the equivalence order'), never PROBABLE_MATCH. The solver follows edges from the candidate's qualification towards the required one, same discipline only, at most 3 hops, no cycles. Tags match the qualification tags used in notices. A required tag without a discipline is met by that tag with any discipline (for example M.Com in Finance meets 'M.Com'); that is a direct match, not an edge.",
+  "edges": [
+    {
+      "id": "pgdm-finance-to-mba-finance",
+      "from": { "tag": "PGDM", "discipline": "FINANCE" },
+      "to": { "tag": "MBA", "discipline": "FINANCE" },
+      "basis": "PGDM (two-year, AICTE-approved) is treated as equivalent to MBA only where the Association of Indian Universities (AIU) has granted equivalence to that programme. Not universal.",
+      "citation": { "document": "AIU equivalence for PGDM programmes (to be confirmed per institution)", "clause": "n/a" },
+      "verified": false
+    },
+    {
+      "id": "pgdm-financial-management-to-mba-financial-management",
+      "from": { "tag": "PGDM", "discipline": "FINANCIAL_MANAGEMENT" },
+      "to": { "tag": "MBA", "discipline": "FINANCIAL_MANAGEMENT" },
+      "basis": "As above, for PGDM in Financial Management.",
+      "citation": { "document": "AIU equivalence for PGDM programmes (to be confirmed per institution)", "clause": "n/a" },
+      "verified": false
+    },
+    {
+      "id": "mcom-distance-to-mcom",
+      "from": { "tag": "MCOM_DISTANCE" },
+      "to": { "tag": "MCOM" },
+      "basis": "Degrees through open and distance learning from institutions recognised by UGC are treated as equivalent to regular degrees.",
+      "citation": { "document": "UGC (Open and Distance Learning Programmes and Online Programmes) Regulations, 2020", "clause": "equivalence of degrees (to be confirmed)" },
+      "verified": false
+    },
+    {
+      "id": "icwai-associate-to-icoai-associate",
+      "from": { "tag": "ICWAI_ASSOCIATE_MEMBER" },
+      "to": { "tag": "ICOAI_ASSOCIATE_MEMBER" },
+      "basis": "The Institute of Cost and Works Accountants of India (ICWAI) was renamed the Institute of Cost Accountants of India (ICMAI) in 2012; it is the same body.",
+      "citation": { "document": "Cost and Works Accountants (Amendment) Act, 2011", "clause": "change of name (to be confirmed)" },
+      "verified": false
+    },
+    {
+      "id": "cma-associate-to-icoai-associate",
+      "from": { "tag": "CMA_ASSOCIATE_MEMBER" },
+      "to": { "tag": "ICOAI_ASSOCIATE_MEMBER" },
+      "basis": "'CMA' / ACMA is the designation of associate members of the Institute of Cost Accountants of India.",
+      "citation": { "document": "Institute of Cost Accountants of India membership designations (to be confirmed)", "clause": "n/a" },
+      "verified": false
+    }
+  ]
+}
